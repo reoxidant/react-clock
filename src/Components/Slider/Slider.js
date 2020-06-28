@@ -2,7 +2,7 @@ import React from "react";
 import './Slider.css';
 import calendar from "./calendar.svg";
 
-export class Slider extends React.Component{
+export class Slider extends React.Component {
 
     constructor(props) {
         super(props);
@@ -12,13 +12,13 @@ export class Slider extends React.Component{
         this.props.onSliderClick(!this.props.click);
     }
 
-    render(){
+    render() {
         const click = this.props.click;
 
-        return(
+        return (
             <div className="slider-wrapper">
                 <div className="slider-toggle" onClick={this.handlerClick.bind(this)}>
-                    <div className={"toggle-circle "+((click)?"on":"off")}></div>
+                    <div className={"toggle-circle " + ((click) ? "on" : "off")}></div>
                 </div>
                 <div className="slider-img">
                     <img src={calendar} alt="calendar-icon"/>

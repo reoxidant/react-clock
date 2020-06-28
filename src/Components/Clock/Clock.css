@@ -1,4 +1,4 @@
-.clock-wrapper{
+.clock-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,7 @@
     border-radius: 250px;
 }
 
-.clock-content{
+.clock-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,14 +20,14 @@
     border-radius: 220px;
 }
 
-.clock-time{
+.clock-time {
     font-size: 42px;
     font-weight: 800;
-    color:aqua;
+    color: aqua;
 }
 
-.clock-date{
+.clock-date {
     font-size: 16px;
-    color:aqua;
+    color: aqua;
     padding-top: 15px;
 }

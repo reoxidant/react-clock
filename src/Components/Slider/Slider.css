@@ -1,4 +1,4 @@
-.slider-toggle{
+.slider-toggle {
     cursor: pointer;
     position: relative;
     width: 50px;
@@ -7,7 +7,7 @@
     background-color: #282c34;
 }
 
-.toggle-circle{
+.toggle-circle {
     position: absolute;
     width: 25px;
     height: 25px;
@@ -15,26 +15,26 @@
     border-radius: 25px;
 }
 
-.slider-toggle .on{
+.slider-toggle .on {
     transition-duration: 1s;
     transition: right .5s ease;
     right: 0;
 }
 
-.slider-toggle .off{
+.slider-toggle .off {
     transition-duration: 1s;
     transition: left .5s ease;
     left: 0;
 }
 
-.slider-wrapper{
+.slider-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 70px;
 }
 
-.slider-img img{
+.slider-img img {
     height: 60px;
     margin-left: 10px;
 }

@@ -9,11 +9,11 @@
     color: white;
 }
 
-.logo{
+.logo {
     height: 40px;
 }
 
-.header-wrapper{
+.header-wrapper {
     width: 250px;
     display: flex;
     align-items: center;
